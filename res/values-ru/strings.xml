@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="validation_invalid">Значение неверное</string>
+    <string name="validation_not_empty">Должно быть заполнено</string>
+    <string name="validation_number">Значение не является числом</string>
+    <string name="validation_integer">Введено не целое число</string>
+    <string name="validation_long">Введено не целое число</string>
+    <string name="validation_float">Введено не число с плавающей точкой</string>
+    <string name="validation_double">Введено не число с плавающей точкой</string>
+    <string name="validation_hex">Введено не число в 16-ричном формате</string>
+    <string name="validation_email">Неверный адрес E-mail</string>
+    <string name="validation_url">Неправильный Url</string>
+    <string name="validation_alnum">Разрешены только символы алфавита и цифры</string>
+    <string name="validation_regexp">Значение не удовлетворяет регулярному выражению</string>
+    <string name="validation_identical">Значение не идентично %TOKEN%</string>
+    <string name="validation_date">Неверный формат даты</string>
+    <string name="validation_dialog_title">Обнаружены ошибки</string>
+    <string name="validation_dialog_close">Закрыть</string>
+</resources>
