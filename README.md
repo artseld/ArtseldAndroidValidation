@@ -81,14 +81,14 @@ myGroup
   .setRequired();
 myGroup
   .addView(email, getResources().getString(R.string.edit_email))
-  .addValidator(email, new EmailValidator());
+  .addValidator(email, new EmailValidator(context));
 
-IntegerValidator integerValidator = new IntegerValidator();
+IntegerValidator integerValidator = new IntegerValidator(context);
 integerValidator.setMessage("It is incorrect age!");
 
 myGroup
   .addView(age, getResources().getString(R.string.text_age))
-  .addValidator(age, new NotEmptyValidator())
+  .addValidator(age, new NotEmptyValidator(context))
   .addValidator(age, integerValidator);
 ```
 
@@ -97,7 +97,7 @@ We attached EmailValidator to the second view, Email, but this view was not mark
 We decided that default error message of IntegerValidator is not nice in current situtation and set custom message.
 And we added NotEmptyValidator (it is the same as setting view as required, you remember).
 Ok! Now, the last step.
-Add click listener and validation checker to our Save button:
+Add click listener and validation checker to our Save button (for example, you going to write this code in your MyActivity class):
 
 ``` java
 save.setOnClickListener(new View.OnClickListener() {
