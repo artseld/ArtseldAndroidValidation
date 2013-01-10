@@ -101,15 +101,15 @@ Add click listener and validation checker to our Save button (for example, you g
 
 ``` java
 save.setOnClickListener(new View.OnClickListener() {
-  @Override
-  public void onClick(View view) {
-    if (!myGroup.validate()) {
-      // Validation failed! We can show nice errors alert dialog
-        myGroup.showErrorsDialog(MyActivity.this);
-      } else {
-        // Validation passed successfully! Do something
-      }
-  }
+    @Override
+    public void onClick(View view) {
+        if (!myGroup.validate()) {
+            // Validation failed! We can show nice errors alert dialog
+            myGroup.showErrorsDialog(MyActivity.this);
+        } else {
+            // Validation passed successfully! Do something
+        }
+    }
 }
 ```
 
