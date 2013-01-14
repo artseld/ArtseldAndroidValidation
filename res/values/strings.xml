@@ -4,6 +4,7 @@
     <string name="validation_not_empty">Value is empty</string>
     <string name="validation_number">Value is not a number</string>
     <string name="validation_integer">Value is not an integer</string>
+    <string name="validation_long">Value is not a long</string>
     <string name="validation_float">Value is not a float</string>
     <string name="validation_double">Value is not a double</string>
     <string name="validation_hex">Value is not a hex</string>
