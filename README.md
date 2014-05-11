@@ -1,7 +1,7 @@
 ArtseldAndroidValidation
 ========================
 
-Validation library for using in Android applications
+Validation library to use in Android applications
 
 About
 -----
